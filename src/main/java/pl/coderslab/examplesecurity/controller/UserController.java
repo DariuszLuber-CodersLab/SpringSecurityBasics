@@ -15,5 +15,9 @@ public class UserController {
         return "Admin page";
     }
 
+    @GetMapping("/about")
+     public String about() {
+        return "user/panel";
+    }
 
 }

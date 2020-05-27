@@ -1,3 +1,4 @@
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: dariu
@@ -12,5 +13,6 @@
 </head>
 <body>
     <h1>HomePage</h1>
+
 </body>
 </html>
