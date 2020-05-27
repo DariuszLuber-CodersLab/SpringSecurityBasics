@@ -15,13 +15,6 @@
 <body>
 
     <nav>
-<%--        Możliwe dopiero jak będą dane z bazy - bo korzysta z getterów --%>
-<%--        <sec:authorize access="isAuthenticated()">--%>
-<%--            <p>Zalogowany jako: <sec:authentication property="username"/></p>--%>
-<%--            <p>Posiada role: <sec:authentication property="authorities"/></p>--%>
-
-<%--        </sec:authorize>--%>
-
         <sec:authorize access="isAuthenticated()">
             <form action="<c:url value="/logout"/>" method="post">
                 <input type="submit" value="Wyloguj">
